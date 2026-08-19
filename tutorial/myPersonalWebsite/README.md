@@ -1,14 +1,19 @@
-# Hamdi Rebhi — Lead Embedded Software Engineer
+# Hamdi Rebhi — Lead Embedded Software Engineer &amp; IoT / Flutter Developer
 
-A clean, minimalist personal portfolio website built with strictly vanilla HTML5, CSS3, and JavaScript.
+A modern, minimalist developer portfolio website built with strictly vanilla HTML5, CSS3, and JavaScript — zero dependencies or build step overhead.
 
 ---
 
 ## ⚡ Overview
 
 - **Engineer**: Hamdi Rebhi
-- **Role**: Lead Embedded Software Engineer at GeWinner
-- **Specialization**: Firmware Architecture, Embedded C/C++, Zephyr RTOS, STM32 (ARM Cortex-M), and Nordic nRF52 Series
+- **Current Role**: Lead Embedded Software Engineer at **GeWinner**
+- **Experience**: 3+ Years in MCU / Silicon Firmware &amp; Full-Stack IoT Development
+- **Core Focus**:
+  - **Firmware &amp; Embedded**: C/C++ (C11/C++17), Zephyr RTOS, FreeRTOS, STM32 (ARM Cortex-M4/M7), Nordic Semiconductor nRF52840, Panasonic PAN1780
+  - **Protocols &amp; Buses**: BLE 5.0/5.3 GATT, I2C (TCA9548A Mux), SPI DMA, CAN/CAN-FD, UART/RS-485
+  - **Cross-Platform &amp; Full-Stack**: Flutter (iOS, Android, Desktop), NestJS, MongoDB, n8n Automation, Wan AI Video Generation
+- **Offerings**: Available for End-to-End IoT, Embedded &amp; Flutter Projects
 
 ---
 
@@ -16,26 +21,50 @@ A clean, minimalist personal portfolio website built with strictly vanilla HTML5
 
 ```tree
 myPersonalWebsite/
-├── index.html   # Semantic HTML5 markup with Hero, Projects, Writing & Contact sections
-├── style.css    # Minimalist, accessible CSS3 with neutral palette & responsive layout
-├── main.js      # Lightweight vanilla JavaScript for smooth anchor navigation
-└── README.md    # Documentation
+├── Assets/
+│   └── profile_photo.jpeg   # Profile imagery
+├── index.html               # Semantic HTML5 markup (Hero, Arsenal, Projects, Media & Contact)
+├── style.css                # Slate-Blue Dark IDE & Light responsive theme with CSS variables
+├── main.js                  # Vanilla JavaScript for smooth scroll, theme toggle & clipboard
+└── README.md                # Project documentation & profile overview
 ```
 
 ---
 
 ## 🔬 Featured Projects
 
-1. **`chaiserelante`**: Wheelchair security and collision avoidance system using a Nordic nRF52 microcontroller and an I2C multiplexer interfacing 7 ultrasonic sensors.
-2. **`rinPen`**: Digital air-writing smart stylus built with the Panasonic PAN1780 module (nRF52840 SoC), 6-DOF motion sensors, and custom BLE data streaming.
-3. **`monomotion`**: AI-driven fitness coaching application featuring a Flutter mobile client, NestJS/MongoDB backend, n8n automated coaching workflows, and on-demand workout video generation powered by Wan AI.
+1. **`chaiserelante` — Active Safety &amp; Collision Avoidance System**
+   - Wheelchair security system utilizing a Nordic nRF52 microcontroller and an I2C multiplexer (TCA9548A) interfacing an array of 7 ultrasonic distance sensors.
+   - Built on Zephyr RTOS with deterministic multi-zone emergency slowdown and automated braking (< 15ms).
+
+2. **`rinPen` — Digital Air-Writing Smart Stylus &amp; 6-DOF Motion Tracker**
+   - Compact spatial motion tracker based on the Panasonic PAN1780 module (Nordic nRF52840 SoC).
+   - Real-time 6-axis IMU kinematic filtering and low-latency stroke vector streaming over custom BLE GATT services.
+
+3. **`monomotion` — AI Fitness Coach &amp; Generative Workout Platform**
+   - Full-stack AI fitness coaching ecosystem featuring a reactive **Flutter** client and scalable **NestJS** + **MongoDB** backend.
+   - Orchestrates automated coaching workflows via **n8n** and synthesizes on-demand exercise demonstration videos using the **Wan** AI video model.
 
 ---
 
-## ✍ Writing & Media
+## ✍ Writing &amp; Media
 
-- **Medium**: In-depth technical articles on RTOS architecture, low-power optimization, and bus protocols.
-- **"The Micro Mind"**: YouTube engineering channel covering hardware bring-up, oscilloscopes, and Zephyr RTOS tutorials.
+### 📰 Medium Articles ([@hamdi22rebhk](https://medium.com/@hamdi22rebhk))
+- [10 Essential Coding Rules for C/C++ in Embedded Systems](https://medium.com/@hamdi22rebhk/10-essential-coding-rules-for-c-c-in-embedded-systems-e8be3854e8e5)
+- [Zephyr RTOS on STM32: Surviving the Setup and Blinking an LED](https://medium.com/@hamdi22rebhk/zephyr-rtos-on-stm32-surviving-the-setup-and-blinking-an-led-536bdd3c142b)
+- [🐞 Chasing a Performance Regression with Git, WinMerge, and Patience](https://medium.com/@hamdi22rebhk/chasing-a-performance-regression-with-git-winmerge-and-patience-ee4b14de3a57)
+
+### 🎥 YouTube Channel ([@hamdirebhi6828](https://www.youtube.com/@hamdirebhi6828))
+- Embedded engineering walkthroughs, microcontroller hardware bring-up, oscilloscopes, and Zephyr RTOS tutorials.
+
+---
+
+## 🌐 Connect &amp; Links
+
+- **Email**: [hamdi.rebhi@gewinner.com](mailto:hamdi.rebhi@gewinner.com)
+- **LinkedIn**: [Hamdi Rebhi on LinkedIn](https://www.linkedin.com/in/hamdi-rebhi-a7131a169/)
+- **YouTube**: [Hamdi Rebhi on YouTube](https://www.youtube.com/@hamdirebhi6828)
+- **Medium**: [Hamdi Rebhi on Medium](https://medium.com/@hamdi22rebhk)
 
 ---
 

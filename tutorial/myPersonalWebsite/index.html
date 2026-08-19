@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hamdi Rebhi — Lead Embedded Software Engineer at GeWinner. Specialized in Firmware Architecture, C/C++, Zephyr RTOS, STM32, and nRF52.">
+  <meta name="author" content="Hamdi Rebhi">
+  <title>Hamdi Rebhi | Lead Embedded Software Engineer</title>
+  
+  <!-- Developer Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="dark">
+
+  <!-- 1. Navbar -->
+  <header class="site-header" id="site-header">
+    <div class="container nav-wrapper">
+      
+      <!-- Left: Logo -->
+      <a href="#hero" class="nav-logo" aria-label="Hamdi Rebhi Homepage">
+        <span class="logo-prompt">&gt;_</span>
+        <span class="logo-text">hamdi.rebhi</span>
+      </a>
+
+      <!-- Center: Navigation Links -->
+      <nav class="site-nav" id="site-nav">
+        <ul class="nav-menu">
+          <li><a href="#hero" class="nav-link active">About</a></li>
+          <li><a href="#skills" class="nav-link">Stack</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#content" class="nav-link">Content</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Right: Status Pill & Theme Toggle -->
+      <div class="nav-actions">
+        <div class="status-pill" title="Zephyr RTOS, IoT &amp; Flutter">
+          <span class="status-dot"></span>
+          <span class="status-label">Zephyr RTOS &bull; IoT &bull; Flutter</span>
+        </div>
+        <button class="theme-btn" id="theme-toggle" aria-label="Toggle Theme" title="Toggle Light / Dark Mode">
+          <span class="theme-icon" id="theme-icon">☀️</span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="main-content">
+
+    <!-- 2. Hero Section (Split 50/50 Layout with min-height: 100vh) -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        
+        <!-- Left Column: Text Content -->
+        <div class="hero-left-col">
+          
+          <!-- Profile Picture & Availability Badge Row -->
+          <div class="hero-profile-row">
+            <div class="avatar-frame">
+              <img src="Assets/profile_photo.jpeg" alt="Hamdi Rebhi" class="profile-img">
+              <span class="avatar-dot" title="Status: Online"></span>
+            </div>
+            <div class="availability-badge">
+              <span class="badge-dot"></span>
+              <span class="badge-text">Available for End-to-End IoT, Embedded &amp; Flutter Projects</span>
+            </div>
+          </div>
+
+          <!-- Hero Headings -->
+          <h1 class="hero-title">Hamdi Rebhi</h1>
+          <h2 class="hero-subtitle">
+            Lead Embedded Software Engineer <span class="accent-symbol">@</span> <span class="company-text">GeWinner</span>
+          </h2>
+
+          <!-- Bio Paragraph -->
+          <p class="hero-bio">
+            Architecting robust, deterministic, and low-power firmware for safety-critical hardware and connected IoT devices. Deeply specialized in <strong>C/C++</strong>, <strong>Zephyr RTOS</strong>, and modern silicon platforms including <strong>STM32</strong> (ARM Cortex-M) and Nordic Semiconductor's <strong>nRF52 series</strong>.
+          </p>
+
+          <!-- Action Buttons Row -->
+          <div class="hero-action-row">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span>
+              <span class="btn-arrow">&rarr;</span>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Get in Touch</span>
+            </a>
+            <a href="mailto:hamdi.rebhi@gewinner.com" class="email-text-link" title="Send Email">
+              <span class="email-icon">&#9993;</span>
+              <span>hamdi.rebhi@gewinner.com</span>
+            </a>
+          </div>
+
+          <!-- Stats Row (3 Columns) -->
+          <div class="hero-stats-grid">
+            <div class="stat-box">
+              <span class="stat-number">3+ Years</span>
+              <span class="stat-desc">Silicon / MCU Dev</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-number">RTOS</span>
+              <span class="stat-desc">Zephyr / FreeRTOS</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-number">BLE 5.3</span>
+              <span class="stat-desc">Low-Energy Protocols</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Column: Mock IDE Window -->
+        <div class="hero-right-col">
+          <div class="ide-window">
+            
+            <!-- Window Header (Mac controls + title + online badge) -->
+            <div class="ide-header">
+              <div class="mac-controls">
+                <span class="control-dot dot-red"></span>
+                <span class="control-dot dot-yellow"></span>
+                <span class="control-dot dot-green"></span>
+              </div>
+              <div class="ide-title">
+                <span class="file-icon">&#128196;</span>
+                <span>hamdi_telemetry.c &mdash; GCC 12.3</span>
+              </div>
+              <div class="ide-badge">ONLINE</div>
+            </div>
+
+            <!-- Window Code Body with Syntax Highlighting -->
+            <div class="ide-body">
+              <div class="code-editor">
+                <div class="line-numbers" aria-hidden="true">
+                  <span>01</span>
+                  <span>02</span>
+                  <span>03</span>
+                  <span>04</span>
+                  <span>05</span>
+                  <span>06</span>
+                  <span>07</span>
+                  <span>08</span>
+                  <span>09</span>
+                  <span>10</span>
+                  <span>11</span>
+                  <span>12</span>
+                  <span>13</span>
+                  <span>14</span>
+                  <span>15</span>
+                  <span>16</span>
+                  <span>17</span>
+                  <span>18</span>
+                  <span>19</span>
+                  <span>20</span>
+                </div>
+                <pre class="code-content"><code><span class="syn-pink">#include</span> <span class="syn-green">&lt;zephyr/kernel.h&gt;</span>
+<span class="syn-pink">#include</span> <span class="syn-green">&lt;nordic/nrf52840.h&gt;</span>
+<span class="syn-pink">#include</span> <span class="syn-green">&lt;drivers/i2c.h&gt;</span>
+
+<span class="syn-comment">// --- Target System Architecture Inspection ---</span>
+<span class="syn-pink">const</span> <span class="syn-blue">target_t</span> <span class="syn-yellow">sys_telemetry</span> = {
+    <span class="syn-yellow">.lead_engineer</span>    = <span class="syn-green">"Hamdi Rebhi"</span>,
+    <span class="syn-yellow">.company</span>          = <span class="syn-green">"GeWinner"</span>,
+    <span class="syn-yellow">.primary_kernel</span>   = <span class="syn-green">"Zephyr RTOS v3.7"</span>,
+    <span class="syn-yellow">.mcu_platforms</span>    = {
+        <span class="syn-green">"STM32H7 / F4 (ARM Cortex-M7/M4)"</span>,
+        <span class="syn-green">"Nordic nRF52840 SoC"</span>,
+        <span class="syn-green">"Panasonic PAN1780"</span>
+    },
+    <span class="syn-yellow">.buses</span>            = {
+        <span class="syn-green">"I2C Mux (TCA9548A)"</span>,
+        <span class="syn-green">"SPI DMA (High-Throughput)"</span>,
+        <span class="syn-green">"BLE 5.3 GATT / HID"</span>,
+        <span class="syn-green">"CAN-FD 1Mbps"</span>
+    },
+    <span class="syn-yellow">.system_state</span>     = <span class="syn-purple">SYS_HEALTH_OPTIMAL</span>,
+    <span class="syn-yellow">.watchdog_active</span>  = <span class="syn-purple">true</span>
+};</code></pre>
+              </div>
+
+              <!-- Terminal Diagnostic Footer Bar -->
+              <div class="ide-terminal-strip">
+                <span class="strip-item"><span class="strip-bullet active"></span> UART: 115200 8N1</span>
+                <span class="strip-item">Endian: Little</span>
+                <span class="strip-item">RAM: 256KB retained</span>
+                <span class="strip-item text-green">Build: 0 Errors</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 3. Technical Stack / Capabilities Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Hardware, Firmware &amp; Tooling Stack</h2>
+          <p class="section-desc">Engineered for deterministic execution, low-power sleep profiling, and reliable hardware abstraction.</p>
+        </div>
+
+        <div class="skills-grid">
+          
+          <div class="skill-card">
+            <div class="skill-icon-box">⚡</div>
+            <h3 class="skill-name">RTOS &amp; Firmware Architecture</h3>
+            <p class="skill-text">Preemptive multi-threading, custom device drivers, DeviceTree overlays, zero-latency ISRs, and power state machines.</p>
+            <div class="skill-tags">
+              <span class="tag">Zephyr RTOS</span>
+              <span class="tag">FreeRTOS</span>
+              <span class="tag">Embedded C (C11)</span>
+              <span class="tag">Modern C++17</span>
+              <span class="tag">Kconfig</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon-box">🎛</div>
+            <h3 class="skill-name">Silicon Platforms &amp; MCUs</h3>
+            <p class="skill-text">Silicon bring-up, memory protection (MPU), clock trees, hardware abstraction layers, and low-power registers.</p>
+            <div class="skill-tags">
+              <span class="tag">STM32 (F4/F7/H7/G4)</span>
+              <span class="tag">Nordic nRF52840</span>
+              <span class="tag">PAN1780 Module</span>
+              <span class="tag">ARM Cortex-M4/M7</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon-box">📡</div>
+            <h3 class="skill-name">Protocols &amp; Sensor Buses</h3>
+            <p class="skill-text">High-throughput sensor hubs, collision-free I2C topologies, custom BLE GATT profiles, and robust packet framing.</p>
+            <div class="skill-tags">
+              <span class="tag">BLE 5.0 / 5.2 / Mesh</span>
+              <span class="tag">I2C &amp; MUX (TCA9548A)</span>
+              <span class="tag">SPI High-Speed DMA</span>
+              <span class="tag">CAN / CAN-FD</span>
+              <span class="tag">UART / RS-485</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon-box">🔬</div>
+            <h3 class="skill-name">Lab Diagnostics &amp; Tooling</h3>
+            <p class="skill-text">Silicon debugging, HardFault unwinding, protocol sniffing, logic analyzers, and automated CI/CD firmware pipelines.</p>
+            <div class="skill-tags">
+              <span class="tag">SEGGER J-Link &amp; Ozone</span>
+              <span class="tag">Saleae Logic Pro</span>
+              <span class="tag">GDB / OpenOCD</span>
+              <span class="tag">Oscilloscopes</span>
+              <span class="tag">West / CMake</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Featured Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Selected Embedded &amp; Systems Projects</h2>
+          <p class="section-desc">Production-grade hardware integration, real-time sensor processing, and wireless firmware implementations.</p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Project 1: chaiserelante -->
+          <article class="project-card">
+            <div class="card-meta-top">
+              <div class="project-badge">
+                <span class="badge-icon">🛡</span>
+                <span>Active Safety System</span>
+              </div>
+              <span class="badge-status">Deployed &amp; Verified</span>
+            </div>
+
+            <h3 class="project-heading">chaiserelante</h3>
+            <h4 class="project-subheading">Wheelchair Security &amp; 360&deg; Multi-Sensor Obstacle Avoidance System</h4>
+
+            <p class="project-description">
+              A high-reliability active security and collision prevention system engineered for powered wheelchairs. Utilizes a Nordic <strong>nRF52 SoC</strong> connected to an <strong>I2C multiplexer (TCA9548A)</strong> controlling an array of <strong>7 ultrasonic distance sensors</strong> arranged in a spatial perimeter.
+            </p>
+
+            <!-- Specification Matrix -->
+            <div class="spec-matrix">
+              <div class="spec-cell">
+                <span class="spec-key">TARGET MCU</span>
+                <span class="spec-val">Nordic nRF52 (ARM Cortex-M4)</span>
+              </div>
+              <div class="spec-cell">
+                <span class="spec-key">PERIPHERALS</span>
+                <span class="spec-val">I2C MUX + 7x Ultrasonic Transducers</span>
+              </div>
+              <div class="spec-cell">
+                <span class="spec-key">ENVIRONMENT</span>
+                <span class="spec-val">Zephyr RTOS / Embedded C</span>
+              </div>
+              <div class="spec-cell">
+                <span class="spec-key">RESPONSE TIME</span>
+                <span class="spec-val">&lt; 15 ms Emergency Trigger</span>
+              </div>
+            </div>
+
+            <div class="project-features">
+              <div class="feature-line">
+                <span class="feature-bullet">&bull;</span>
+                <span><strong>Multiplexed I2C Bus:</strong> Dynamically sweeps 7 ultrasonic transceivers without address collision in &lt; 45ms.</span>
+              </div>
+              <div class="feature-line">
+                <span class="feature-bullet">&bull;</span>
+                <span><strong>Deterministic Safety Loop:</strong> Real-time distance evaluation with multi-zone emergency slowdown and automatic braking.</span>
+              </div>
+            </div>
+
+            <div class="project-tag-list">
+              <span class="tag">nRF52</span>
+              <span class="tag">I2C Multiplexer</span>
+              <span class="tag">Ultrasonic Sensors</span>
+              <span class="tag">Zephyr RTOS</span>
+              <span class="tag">Embedded C</span>
+            </div>
+          </article>
+
+          <!-- Project 2: rinPen -->
+          <article class="project-card">
+            <div class="card-meta-top">
+              <div class="project-badge">
+                <span class="badge-icon">✍</span>
+                <span>Wireless IoT / Motion</span>
+              </div>
+              <span class="badge-status">Prototyped &amp; Validated</span>
+            </div>
+
+            <h3 class="project-heading">rinPen</h3>
+            <h4 class="project-subheading">Digital Air-Writing Smart Stylus &amp; 6-DOF Spatial Motion Tracker</h4>
+
+            <p class="project-description">
+              An ultra-compact spatial air-writing instrument and motion-sensing stylus based on the <strong>Panasonic PAN1780 module</strong> (Nordic nRF52840). Captures handwriting kinematics in 3D space using 6-axis inertial measurement sensors and streams high-fidelity stroke vectors over custom BLE GATT services.
+            </p>
+
+            <!-- Specification Matrix -->
+            <div class="spec-matrix">
+              <div class="spec-cell">
+                <span class="spec-key">WIRELESS MODULE</span>
+                <span class="spec-val">Panasonic PAN1780 (nRF52840)</span>
+              </div>
+              <div class="spec-cell">
+                <span class="spec-key">SENSORS</span>
+                <span class="spec-val">6-DOF IMU (Accel + Gyro)</span>
+              </div>
+              <div class="spec-cell">
+                <span class="spec-key">CONNECTIVITY</span>
+                <span class="spec-val">BLE 5.0 Custom GATT / HID</span>
+              </div>
+              <div class="spec-cell">
+                <span class="spec-key">SAMPLE RATE</span>
+                <span class="spec-val">100 Hz Streamed @ &lt; 8mA</span>
+              </div>
+            </div>
+
+            <div class="project-features">
+              <div class="feature-line">
+                <span class="feature-bullet">&bull;</span>
+                <span><strong>On-Device Sensor Fusion:</strong> Lightweight orientation filter running on ARM Cortex-M4F with hardware FPU acceleration.</span>
+              </div>
+              <div class="feature-line">
+                <span class="feature-bullet">&bull;</span>
+                <span><strong>Ultra-Low Power Architecture:</strong> Motion-activated interrupt wake-up and sub-microamp deep sleep state.</span>
+              </div>
+            </div>
+
+            <div class="project-tag-list">
+              <span class="tag">PAN1780</span>
+              <span class="tag">nRF52840</span>
+              <span class="tag">BLE 5.0 GATT</span>
+              <span class="tag">IMU Sensor Fusion</span>
+              <span class="tag">C++17</span>
+            </div>
+          </article>
+
+          <!-- Project 3: monomotion -->
+          <article class="project-card">
+            <div class="card-meta-top">
+              <div class="project-badge">
+                <span class="badge-icon">💪</span>
+                <span>AI Fitness &amp; Mobile</span>
+              </div>
+              <span class="badge-status">In Development</span>
+            </div>
+
+            <h3 class="project-heading">monomotion</h3>
+            <h4 class="project-subheading">AI Fitness Coach &amp; Generative Workout Video Platform</h4>
+
+            <p class="project-description">
+              A full-stack, AI-powered personal fitness coaching application. Built with a reactive <strong>Flutter</strong> mobile client and a scalable <strong>NestJS</strong> backend backed by <strong>MongoDB</strong>. Features automated AI coaching logic orchestrated through <strong>n8n</strong> and dynamic exercise demonstration videos generated with the <strong>Wan</strong> AI video model.
+            </p>
+
+            <!-- Specification Matrix -->
+            <div class="spec-matrix">
+              <div class="spec-cell">
+                <span class="spec-key">MOBILE CLIENT</span>
+                <span class="spec-val">Flutter (iOS &amp; Android)</span>
+              </div>
+              <div class="spec-cell">
+                <span class="spec-key">BACKEND &amp; DB</span>
+                <span class="spec-val">NestJS + MongoDB</span>
+              </div>
+              <div class="spec-cell">
+                <span class="spec-key">AUTOMATION</span>
+                <span class="spec-val">n8n Workflow Engine</span>
+              </div>
+              <div class="spec-cell">
+                <span class="spec-key">AI VIDEO GEN</span>
+                <span class="spec-val">Wan AI Video Model</span>
+              </div>
+            </div>
+
+            <div class="project-features">
+              <div class="feature-line">
+                <span class="feature-bullet">&bull;</span>
+                <span><strong>AI Coaching &amp; Automation:</strong> Personalized routine generation, workout tracking, and coaching pipelines orchestrated via n8n.</span>
+              </div>
+              <div class="feature-line">
+                <span class="feature-bullet">&bull;</span>
+                <span><strong>Generative Exercise Videos:</strong> Automated synthesis of customized workout movement demonstrations using the Wan video model.</span>
+              </div>
+            </div>
+
+            <div class="project-tag-list">
+              <span class="tag">Flutter</span>
+              <span class="tag">NestJS</span>
+              <span class="tag">MongoDB</span>
+              <span class="tag">n8n</span>
+              <span class="tag">Wan AI</span>
+              <span class="tag">TypeScript</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Technical Writing & Publications Section -->
+    <section class="section content-section" id="content">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Writing, Media &amp; Knowledge Dissemination</h2>
+          <p class="section-desc">Breaking down complex firmware architectures, RTOS primitives, and hardware engineering practices.</p>
+        </div>
+
+        <div class="content-grid">
+          
+          <!-- Medium Publications Card -->
+          <div class="content-card">
+            <div class="content-card-top">
+              <span class="media-badge medium-tag">
+                <span class="badge-icon">✍</span>
+                <span>Medium Technical Articles</span>
+              </span>
+            </div>
+
+            <h3 class="media-title">In-Depth Engineering Articles</h3>
+            <p class="media-desc">
+              Comprehensive technical guides covering firmware architecture patterns, memory safety in embedded C, low-overhead communication protocols, and real-world system debugging.
+            </p>
+
+            <div class="media-list">
+              <a href="https://medium.com" target="_blank" rel="noopener noreferrer" class="media-item">
+                <div class="item-tag">GUIDE &bull; 8 MIN READ</div>
+                <h4 class="item-title">Mastering Zephyr RTOS DeviceTrees &amp; Kconfig for Multi-Board Products ↗</h4>
+              </a>
+
+              <a href="https://medium.com" target="_blank" rel="noopener noreferrer" class="media-item">
+                <div class="item-tag">SYSTEMS &bull; 12 MIN READ</div>
+                <h4 class="item-title">Designing Zero-Collision Multiplexed I2C Sensor Hubs on ARM Cortex-M ↗</h4>
+              </a>
+
+              <a href="https://medium.com" target="_blank" rel="noopener noreferrer" class="media-item">
+                <div class="item-tag">LOW POWER &bull; 6 MIN READ</div>
+                <h4 class="item-title">Microamp Squeezing: Ultra Low Power Firmware Patterns for BLE Wearables ↗</h4>
+              </a>
+            </div>
+
+            <div class="card-footer-btn">
+              <a href="https://medium.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline full-width">
+                <span>Read Articles on Medium</span>
+                <span class="btn-arrow">&rarr;</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- YouTube Channel Card -->
+          <div class="content-card">
+            <div class="content-card-top">
+              <span class="media-badge yt-tag">
+                <span class="badge-icon">&#9654;</span>
+                <span>YouTube Engineering Channel</span>
+              </span>
+            </div>
+
+            <h3 class="media-title">"The Micro Mind"</h3>
+            <p class="media-desc">
+              A specialized video engineering hub dedicated to microcontroller hardware bring-up, real-time operating systems, low-power optimization, and hands-on lab oscilloscopes/logic analyzer walkthroughs.
+            </p>
+
+            <div class="media-list">
+              <div class="media-item static-item">
+                <div class="item-tag">EPISODE 01</div>
+                <h4 class="item-title">Zephyr RTOS from Scratch: Threads, Mutexes &amp; Workqueues</h4>
+                <p class="item-sub">Hands-on architecture breakdown with STM32 &amp; nRF52</p>
+              </div>
+
+              <div class="media-item static-item">
+                <div class="item-tag">EPISODE 02</div>
+                <h4 class="item-title">Debugging HardFaults with GDB, J-Link &amp; Ozone</h4>
+                <p class="item-sub">ARM Cortex-M stack unwinding &amp; fault status registers</p>
+              </div>
+
+              <div class="media-item static-item">
+                <div class="item-tag">EPISODE 03</div>
+                <h4 class="item-title">Mastering BLE 5.0 Throughput &amp; Custom GATT Services</h4>
+                <p class="item-sub">Packet sniffing, MTU negotiation &amp; energy profiling</p>
+              </div>
+            </div>
+
+            <div class="card-footer-btn">
+              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary full-width">
+                <span>Watch on "The Micro Mind"</span>
+                <span class="btn-arrow">&#8599;</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Contact Card Section (Replicating image_1.png layout) -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-main-card">
+          
+          <!-- Contact Header: Avatar + Title -->
+          <div class="contact-header-flex">
+            <div class="contact-avatar-wrap">
+              <img src="Assets/profile_photo.jpeg" alt="Hamdi Rebhi" class="contact-avatar-img">
+            </div>
+            <div class="contact-title-wrap">
+              <h2 class="contact-heading">Let's Connect &amp; Build</h2>
+            </div>
+          </div>
+
+          <!-- Paragraph Text -->
+          <p class="contact-para">
+            Whether you are looking for end-to-end development for IoT, Embedded, and Flutter projects, or wish to discuss firmware engineering and architecture, my inbox is open.
+          </p>
+
+          <!-- Nested Sub-Cards (Horizontal 3-Column Row) -->
+          <div class="contact-subcards-row">
+            
+            <!-- Card 1: Direct Email -->
+            <div class="subcard email-subcard">
+              <div class="subcard-icon icon-grey">
+                <span class="icon-char">&#9993;</span>
+              </div>
+              <div class="subcard-info">
+                <span class="subcard-label">DIRECT EMAIL</span>
+                <a href="mailto:hamdi.rebhi@gewinner.com" class="subcard-value email-value" id="email-text">hamdi.rebhi@gewinner.com</a>
+              </div>
+              <button class="subcard-copy-btn" id="copy-email-btn" title="Copy email address" aria-label="Copy email">
+                <span class="copy-btn-text">Copy</span>
+              </button>
+            </div>
+
+            <!-- Card 2: Current Role -->
+            <div class="subcard role-subcard">
+              <div class="subcard-icon icon-blue">
+                <span class="icon-char">&#127970;</span>
+              </div>
+              <div class="subcard-info">
+                <span class="subcard-label">CURRENT ROLE</span>
+                <span class="subcard-value">Lead Embedded Software Engineer @ GeWinner</span>
+              </div>
+            </div>
+
+            <!-- Card 3: Core Focus -->
+            <div class="subcard focus-subcard">
+              <div class="subcard-icon icon-magenta">
+                <span class="icon-char">&#128205;</span>
+              </div>
+              <div class="subcard-info">
+                <span class="subcard-label">CORE FOCUS</span>
+                <span class="subcard-value focus-value">Firmware Architecture &bull; STM32 &bull; nRF52 &bull; Zephyr</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Lower Link Row (Button style links with arrow icons) -->
+          <div class="contact-links-row">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="contact-action-link">
+              <span>GitHub</span>
+              <span class="link-arrow">&#8599;</span>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="contact-action-link">
+              <span>LinkedIn</span>
+              <span class="link-arrow">&#8599;</span>
+            </a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="contact-action-link">
+              <span>YouTube ("The Micro Mind")</span>
+              <span class="link-arrow">&#8599;</span>
+            </a>
+            <a href="https://medium.com" target="_blank" rel="noopener noreferrer" class="contact-action-link">
+              <span>Medium</span>
+              <span class="link-arrow">&#8599;</span>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Toast Notification for Copy Action -->
+  <div class="toast" id="toast" role="status" aria-live="polite">Email copied to clipboard!</div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-layout">
+      <div class="footer-left">
+        <span class="footer-brand">&gt;_ hamdi.rebhi</span>
+        <span class="footer-title">&mdash; Lead Embedded Software Engineer at GeWinner</span>
+      </div>
+      <div class="footer-right">
+        <p class="footer-note">Built with Vanilla HTML5, CSS3, &amp; ES6+ JavaScript. Zero framework overhead.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
